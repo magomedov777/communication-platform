@@ -1,0 +1,37 @@
+@import "../../../../common/styles/colors";
+
+.formBlock {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 100px;
+  .textarea {
+    padding: 10px 0px 0 10px;
+    width: 200px;
+    height: 50px;
+    margin-right: 20px;
+    resize: none;
+  }
+  button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: darkgrey;
+    cursor: pointer;
+
+    span {
+      font-size: 14px;
+    }
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  button:hover {
+    color: gold;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+    svg {
+      fill: gold;
+    }
+  }
+}

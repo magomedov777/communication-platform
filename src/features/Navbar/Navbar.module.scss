@@ -1,0 +1,28 @@
+@import "../../common/styles/mixin";
+
+.nav {
+  grid-area: n;
+  background: darkcyan;
+  padding: 30px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 5px;
+  position: relative;
+
+  svg {
+    padding-right: 8px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a.activeLink {
+    color: rgb(217, 221, 0);
+  }
+}

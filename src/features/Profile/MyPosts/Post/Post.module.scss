@@ -1,0 +1,25 @@
+.item {
+  width: 90%;
+  background-color: rgba(201, 180, 180, 0.51);
+  margin-bottom: 20px;
+  color: gold;
+  .topBlock {
+    padding: 10px 0 0 10px;
+    border-bottom: 1px solid rgba(46, 139, 87, 0.3);
+    img {
+      width: 50px;
+      height: 50px;
+    }
+    .postText {
+      padding-bottom: 10px;
+    }
+  }
+  .bottomBlock {
+    padding: 5px 0 0 10px;
+    display: flex;
+    svg {
+      fill: brown;
+      margin-right: 8px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.loginBlock {
+  .inputBlock {
+    margin-bottom: 15px;
+    .firstInput {
+      margin-bottom: 20px;
+    }
+    input {
+      height: 38px;
+      width: 70%;
+      border: 1px white solid;
+      border-radius: 10px;
+      outline: none;
+      padding-left: 20px;
+      padding-right: 15px;
+    }
+  }
+  .checkBox {
+    display: flex;
+    margin-bottom: 30px;
+    input {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+  button {
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover {
+      border: 2px solid gold;
+    }
+  }
+}

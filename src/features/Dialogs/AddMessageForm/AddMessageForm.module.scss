@@ -1,0 +1,21 @@
+.formBlock {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  textarea {
+    width: 400px;
+    height: 80px;
+    padding: 10px 10px;
+    margin-right: 10px;
+  }
+  button {
+    width: 90px;
+    height: 60px;
+    border-radius: 12px;
+  }
+}
+button:hover {
+  color: gold;
+  border: 2px solid gold;
+}

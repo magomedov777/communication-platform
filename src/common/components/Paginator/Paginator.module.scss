@@ -1,0 +1,104 @@
+.paginationComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  span {
+    cursor: pointer;
+  }
+
+  .paginationBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+
+    @media (max-width: 700px) {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .pageCountBox {
+      width: 12%;
+      position: relative;
+
+      @media (max-width: 700px) {
+        width: 55px;
+        text-align: center;
+        order: 2;
+        margin-top: 5px;
+      }
+
+      .pageCount {
+        display: inline-block;
+        border-radius: 5px;
+        width: 55px;
+        text-align: center;
+        padding: 2px 5px;
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        font-size: 16px;
+        margin-bottom: 2px;
+        transition-duration: 0.3s;
+
+        &:hover {
+        }
+      }
+
+      .pageCountOptions {
+        position: absolute;
+        left: 0;
+        top: 30px;
+        background-color: white;
+        border: 1px black solid;
+        border-radius: 5px;
+        width: 55px;
+        text-align: center;
+        cursor: pointer;
+
+        .el {
+          padding: 4px 0;
+
+          &:hover {
+            background-color: transparent;
+            color: white;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+
+    .pagBox {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 88%;
+
+      @media (max-width: 700px) {
+        width: 100%;
+      }
+
+      .arrowsBox span {
+        margin: 0 8px;
+        position: relative;
+        top: 2px;
+
+        svg {
+          fill: white;
+        }
+      }
+
+      .pageNumber {
+      }
+
+      .selectPage {
+        font-weight: bold !important;
+        font-size: 20px !important;
+        color: red;
+      }
+    }
+  }
+}

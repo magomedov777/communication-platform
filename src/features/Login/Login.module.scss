@@ -1,0 +1,26 @@
+@import "../../common/styles/colors";
+
+.loginBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+  width: 100%;
+  color: white;
+  .formBlock {
+    display: flex;
+    justify-content: center;
+    background-color: darkcyan;
+    width: 70%;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .loginFormBlock {
+    width: 50%;
+    height: 90%;
+    h1 {
+      margin-bottom: 20px;
+      color: rgb(20, 141, 255);
+    }
+  }
+}

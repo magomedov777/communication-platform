@@ -1,0 +1,22 @@
+@import '../../styles/mixin';
+
+.preloaderContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: transparent;
+
+  .preloaderBlock {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+
+    .loader {
+      @include preloader(100px, 15px solid rgb(178, 59, 71), 1.5s);
+    }
+  }
+}
+

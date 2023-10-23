@@ -1,0 +1,15 @@
+
+.formControl.error input,
+.formControl.error textarea {
+    border: 3px solid red;
+}
+.formControl.error span {
+    color: red;
+}
+.inputBlock {
+    display: flex;
+    flex-direction: column;
+}
+.errorBlock {
+    height: 5px;
+}

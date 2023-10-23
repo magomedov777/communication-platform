@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  background: darkcyan;
+  img {
+    width: 50px;
+  }
+}
+
+.logoBlock {
+  display: flex;
+  align-items: center;
+  span {
+    font-weight: 900;
+    color: gold;
+    font-family: Cambria, Cochin, Georgia, Times;
+  }
+}

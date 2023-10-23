@@ -1,0 +1,13 @@
+@import "../../../common/styles/colors";
+
+.messageBlock {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px 10px 20px 5px;
+  background-color: #928282;
+  span {
+    margin-right: 15px;
+  }
+}
