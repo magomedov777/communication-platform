@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/communication-platform/static/css/main.f80c6ace.css",
+    "main.js": "/communication-platform/static/js/main.2b2c98b1.js",
+    "index.html": "/communication-platform/index.html",
+    "main.f80c6ace.css.map": "/communication-platform/static/css/main.f80c6ace.css.map",
+    "main.2b2c98b1.js.map": "/communication-platform/static/js/main.2b2c98b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f80c6ace.css",
+    "static/js/main.2b2c98b1.js"
+  ]
+}
